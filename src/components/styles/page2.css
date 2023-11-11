@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Font1";
+    src: url("../../fonts/MagilioRegular-8Mxvg.otf") format("otf");
+    /* Add additional sources and formats as needed */
+  }
+  @font-face {
+    font-family: "Font2";
+    src: url("../../fonts/thegoodmotherdemo-zvdrj.otf") format("otf");
+    /* Add additional sources and formats as needed */
+  }
+  @font-face {
+    font-family: "Font3";
+    src: url("../../fonts/SurprisedmonkeyBold-BF654c6150f115a.ttf") format("ttf");
+    /* Add additional sources and formats as needed */
+  }
+.page2container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.page2textcontainer{
+    width: 45vw;
+    font-family: 'Font1';
+    font-size: 1.2rem;
+    animation: page2 3s ease forwards;
+}
+@keyframes page2 {
+  0% {
+    transform: translateX(-250%); /* Start off-screen to the left */
+  }
+  100% {
+    transform: translateX(0); /* Move to the final position inside the container */
+  }
+}
+.animationpage2{
+  animation: page2_2 3s ease forwards;
+}
+@keyframes page2_2 {
+  0% {
+    transform: translateX(360%); /* Start off-screen to the left */
+  }
+  100% {
+    transform: translateX(0); /* Move to the final position inside the container */
+  }
+}

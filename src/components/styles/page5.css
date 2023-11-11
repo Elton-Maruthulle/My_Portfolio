@@ -1,0 +1,93 @@
+.page5maincontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    
+}
+.animationpage5{
+    width: 35vw;
+    animation: page5effect1 3s ease forwards;
+}
+@keyframes page5effect1 {
+    0% {
+      transform: translateX(-250%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(0); /* Move to the final position inside the container */
+    }
+  }
+.Whatsapppic, .Githubpic, .LinkedIn, .Facebook, .Email {
+    width: 2.5vw;
+    margin-top: 5vh;
+}
+.Githubpic{
+    filter: invert(100%);
+}
+.social-links{
+    display: flex;
+    animation: page5effect4 3s ease forwards;   
+}
+@keyframes page5effect4 {
+    0% {
+      transform: translateX(250%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(0); /* Move to the final position inside the container */
+    }
+  }
+.linkslink{
+    margin-left: 1vw;
+}
+.page5content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.emailemail{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.Myavatar{
+    width: 20vw;
+    border-radius: 100%;
+    animation: page5effect2 3s ease forwards;
+    
+}
+@keyframes page5effect2 {
+    0% {
+      transform: translateY(-250%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateY(0); /* Move to the final position inside the container */
+    }
+  }
+.contactme{
+    margin-top: 2vh;
+    font-size: 1.5rem;
+    animation: page5effect3 2s ease forwards;
+}
+@keyframes page5effect3 {
+    0% {
+      transform: translateX(250%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(0); /* Move to the final position inside the container */
+    }
+  }
+
+@media (max-width:779px) {
+  .page5maincontainer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    
+}
+} 

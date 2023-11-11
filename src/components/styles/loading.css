@@ -1,0 +1,44 @@
+.loadingcontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.animationloading{
+    width: 25vw;
+    animation: loadingeffect2 1s ease forwards;
+    margin-top: -10vh;
+}
+@keyframes loadingeffect2 {
+    0% {
+      transform: translateY(365%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateY(0); /* Move to the final position inside the container */
+    }
+  }
+.loadingdecotext{
+    display: flex;
+}
+.higlightedtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 3vh;
+    background-color: red;
+    font-size: 1rem;
+    animation: loadingeffect1 4s ease forwards;
+}
+@keyframes loadingeffect1 {
+    0% {
+      transform: translateY(600%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateY(0); /* Move to the final position inside the container */
+    }
+  }

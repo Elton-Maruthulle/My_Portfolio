@@ -1,0 +1,279 @@
+@font-face {
+    font-family: "Font1";
+    src: url("../../fonts/MagilioRegular-8Mxvg.otf") format("otf");
+    /* Add additional sources and formats as needed */
+  }
+.animationpage1{
+    width: 35vw;
+    animation: page4Element2 3s ease forwards;
+}
+@keyframes page4Element2 {
+    0% {
+      transform: translateX(-250%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(0); /* Move to the final position inside the container */
+    }
+  }
+.page4maincontainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.myprojects{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 3vh;
+    animation: page4Element1 5s ease forwards;
+    font-family: 'Font1';
+    font-size: 2.5rem;
+    margin-right: -44vw;
+}
+@keyframes page4Element1 {
+    0% {
+      transform: translateY(-250%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateY(0); /* Move to the final position inside the container */
+    }
+  }
+.Page4Container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/* CSS for the ClickableCard component */
+.cardscontainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50vw;
+    height: 80vh;
+    animation: page4Element3 4s ease forwards;
+  }
+  @keyframes page4Element3 {
+    0% {
+      transform: translateX(360%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(0); /* Move to the final position inside the container */
+    }
+  }
+  
+  .cardscontainer2 > div {
+    width: calc(25% - 5px); /* 4 cards per row with 10px margin in between */
+    height:calc(25% - 5px) ;
+    margin: 5px; /* Adjust margin as needed */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Glassy and transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Semi-transparent border */
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s; /* Add smooth hover effect */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardscontainer2 > div:hover {
+    transform: scale(1.05); /* Scale the card on hover */
+    background-color: rgba(255, 255, 255, 1); /* Make it less transparent on hover */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Adjust border transparency on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9); /* Add a shadow on hover */
+    border-radius: 20px;
+}
+  
+  /* Different background colors for each card */
+  .cardscontainer2 > div:nth-child(1) {
+    background-color: rgba(9, 244, 44, 0.9);
+  }
+  
+  .cardscontainer2 > div:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .cardscontainer2 > div:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .cardscontainer2 > div:nth-child(4) {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .cardscontainer2 > div:nth-child(5) {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .cardscontainer2 > div:nth-child(6) {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .cardscontainer2 > div:nth-child(7) {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .cardscontainer2 > div:nth-child(8) {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .cardscontainer2 > div:nth-child(9) {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  /* Add more background colors as needed */
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .cardscontainer2 > div {
+      width: calc(50% - 10px); /* 2 cards per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cardscontainer2 > div {
+      width: 100%; /* 1 card per row on mobile screens */
+    }
+  }
+  .cardscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50vw;
+    height: 80vh;
+    animation: page4Element3 4s ease forwards;
+  }
+  @keyframes page4Element3 {
+    0% {
+      transform: translateX(360%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(0); /* Move to the final position inside the container */
+    }
+  }
+  
+  .cardscontainer > div {
+    width: calc(25% - 5px); /* 4 cards per row with 10px margin in between */
+    height:calc(25% - 5px) ;
+    margin: 5px; /* Adjust margin as needed */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Glassy and transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Semi-transparent border */
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s; /* Add smooth hover effect */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardscontainer > div:hover {
+    transform: scale(1.05); /* Scale the card on hover */
+    background-color: rgba(255, 255, 255, 1); /* Make it less transparent on hover */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Adjust border transparency on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9); /* Add a shadow on hover */
+    border-radius: 20px;
+}
+  
+  /* Different background colors for each card */
+  .cardscontainer > div:nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .cardscontainer > div:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .cardscontainer > div:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .cardscontainer > div:nth-child(4) {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .cardscontainer > div:nth-child(5) {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .cardscontainer > div:nth-child(6) {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .cardscontainer > div:nth-child(7) {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .cardscontainer > div:nth-child(8) {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .cardscontainer > div:nth-child(9) {
+    background-color: rgba(9, 244, 44, 0.9);
+  }
+  /* Add more background colors as needed */
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .cardscontainer > div {
+      width: calc(50% - 10px); /* 2 cards per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cardscontainer > div {
+      width: 100%; /* 1 card per row on mobile screens */
+    }
+  }
+  
+
+@media (max-width: 1159px) {
+  .cardscontainer, .cardscontainer2{
+    height: 30vh;
+    overflow: scroll;
+    margin-left: 5vw;
+  }
+  .Page4Container{
+   
+    flex-direction: column;
+    
+}
+.animationpage1{
+  width: 30vw;
+  
+}
+.myprojects{
+
+font-size: 1.7rem;
+margin-right: 0vw;
+}
+}
+
+@media (max-width:769px) {
+  .cardscontainer, .cardscontainer2{
+   
+    margin-left: 25vw;
+  }
+
+.animationpage1{
+  width: 45vw;
+  
+}
+
+}
+
+@media (max-width:481px) {
+  .cardscontainer, .cardscontainer2{
+   
+    margin-left: 5vw;
+  }
+
+.animationpage1{
+  width: 70vw;
+  
+}
+
+}

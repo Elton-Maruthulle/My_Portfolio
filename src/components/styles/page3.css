@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Font1";
+    src: url("../../fonts/MagilioRegular-8Mxvg.otf") format("otf");
+    /* Add additional sources and formats as needed */
+  }
+  @font-face {
+    font-family: "Font2";
+    src: url("../../fonts/thegoodmotherdemo-zvdrj.otf") format("otf");
+    /* Add additional sources and formats as needed */
+  }
+  @font-face {
+    font-family: "Font3";
+    src: url("../../fonts/SurprisedmonkeyBold-BF654c6150f115a.ttf") format("ttf");
+    /* Add additional sources and formats as needed */
+  }
+.page3container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Font3';
+}
+.table1{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 40vw;
+}
+.page3content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4vw;
+    animation: page3 5s ease forwards;
+}
+@keyframes page3 {
+    0% {
+      transform: translateX(360%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(0); /* Move to the final position inside the container */
+    }
+  }
+  
+.animationpage3{
+    animation: page3_3 3s ease forwards;
+}
+@keyframes page3_3 {
+    0% {
+      transform: translateX(-360%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(0); /* Move to the final position inside the container */
+    }
+  }
+
+  @media (max-width:1156px) {
+    .page3container{
+      flex-direction: column;
+  }
+  .animationpage3{
+    width:20vw
+}
+.table1{
+ 
+  
+  width: 80vw;
+}
+  }
+  @media (max-width:1092px) {
+    
+    .table1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 40vw;
+  }
+  .page3content{
+    height: 50vh;
+    overflow: scroll;
+    margin-top: 0;
+}
+  }
