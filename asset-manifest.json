@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio/static/css/main.0933adc1.css",
+    "main.js": "/My_Portfolio/static/js/main.bd86c0ca.js",
+    "static/media/my pic.jpg": "/My_Portfolio/static/media/my pic.2fa45fb7a4e31c5e6f89.jpg",
+    "static/media/facebook.png": "/My_Portfolio/static/media/facebook.6c83ee5c1bdbedbc947a.png",
+    "static/media/SurprisedmonkeyBold-BF654c6150f115a.ttf": "/My_Portfolio/static/media/SurprisedmonkeyBold-BF654c6150f115a.c317fe03df4c3cb7f587.ttf",
+    "static/media/Whatsapp.png": "/My_Portfolio/static/media/Whatsapp.6af0dc30432262b832a1.png",
+    "static/media/MagilioRegular-8Mxvg.otf": "/My_Portfolio/static/media/MagilioRegular-8Mxvg.4bb4f911c8d1d4d8aa98.otf",
+    "static/media/thegoodmotherdemo-zvdrj.otf": "/My_Portfolio/static/media/thegoodmotherdemo-zvdrj.a1524aabc183b997bd6e.otf",
+    "static/media/gmail.png": "/My_Portfolio/static/media/gmail.d765005ce9d4caa3d69e.png",
+    "index.html": "/My_Portfolio/index.html",
+    "main.0933adc1.css.map": "/My_Portfolio/static/css/main.0933adc1.css.map",
+    "main.bd86c0ca.js.map": "/My_Portfolio/static/js/main.bd86c0ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0933adc1.css",
+    "static/js/main.bd86c0ca.js"
+  ]
+}
